@@ -1,8 +1,8 @@
 class Pymupdf < Formula
   desc "Python bindings for the PDF toolkit and renderer MuPDF"
   homepage "https://pymupdf.readthedocs.io/en/latest/"
-  url "https://files.pythonhosted.org/packages/09/48/862dcbe3cc3f11394c2fc9c5021bf8023b4c917213b63553fb8f15764c95/PyMuPDF-1.24.9.tar.gz"
-  sha256 "3692a5e824f10dc09bbddabab207f7cd5979831e48dd2f4de1be21e441767473"
+  url "https://files.pythonhosted.org/packages/83/57/da06ca4886afc71a624e4b463d05f45c8a822596ede939957295e229eb4e/PyMuPDF-1.24.10.tar.gz"
+  sha256 "bd3ebd6d3fb8a845582098362f885bfb0a31ae4272587efc2c55c5e29fe7327a"
   license "AGPL-3.0-only"
 
   bottle do
@@ -26,8 +26,8 @@ class Pymupdf < Formula
   end
 
   resource "pymupdfb" do
-    url "https://files.pythonhosted.org/packages/0c/6c/1d3e88cd7b6a0f074ad6cec0dc32f9c023acd98b328eb23a183517e80e2b/PyMuPDFb-1.24.9.tar.gz"
-    sha256 "5505f07b3dded6e791ab7d10d01f0687e913fc75edd23fdf2825a582b6651558"
+    url "https://files.pythonhosted.org/packages/c9/ff/ecfcb41414b51976974d74c8e35fef0a0e5b47c7046a11c860553f5dccf0/PyMuPDFb-1.24.10.tar.gz"
+    sha256 "007b91fa9b528c5c0eecea2e49c486ac02e878274f9e31522bdd948adc5f8327"
   end
 
   def install
