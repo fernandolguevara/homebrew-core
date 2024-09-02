@@ -1,8 +1,8 @@
 class Wangle < Formula
   desc "Modular, composable client/server abstractions framework"
   homepage "https://github.com/facebook/wangle"
-  url "https://github.com/facebook/wangle/archive/refs/tags/v2024.08.26.00.tar.gz"
-  sha256 "4cc6b7a4c8c4d6c435d53d431cc1719eac8e743ea8979826b24b44ae9e51678d"
+  url "https://github.com/facebook/wangle/archive/refs/tags/v2024.09.02.00.tar.gz"
+  sha256 "580eef155a4579cdf7ab41034043f7aeb9600d44fd8ef8785038c11acdd3bf4f"
   license "Apache-2.0"
   head "https://github.com/facebook/wangle.git", branch: "main"
 
@@ -51,7 +51,7 @@ class Wangle < Formula
   test do
     # libsodium has no CMake file but fizz runs `find_dependency(Sodium)` so fetch a copy from mvfst
     resource "FindSodium.cmake" do
-      url "https://raw.githubusercontent.com/facebook/mvfst/v2024.08.26.00/cmake/FindSodium.cmake"
+      url "https://raw.githubusercontent.com/facebook/mvfst/v2024.09.02.00/cmake/FindSodium.cmake"
       sha256 "39710ab4525cf7538a66163232dd828af121672da820e1c4809ee704011f4224"
     end
     (testpath/"cmake").install resource("FindSodium.cmake")
