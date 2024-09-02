@@ -1,8 +1,8 @@
 class Edencommon < Formula
   desc "Shared library for Watchman and Eden projects"
   homepage "https://github.com/facebookexperimental/edencommon"
-  url "https://github.com/facebookexperimental/edencommon/archive/refs/tags/v2024.08.26.00.tar.gz"
-  sha256 "4a7b1e9c97617ad0c34524ec7ccb35a746deaf58f4b72ee84aeaf5c4632da94b"
+  url "https://github.com/facebookexperimental/edencommon/archive/refs/tags/v2024.09.02.00.tar.gz"
+  sha256 "52c368a2970ea854769e10dce119747887f06deb6d72d22d473ce14874a228ac"
   license "MIT"
   head "https://github.com/facebookexperimental/edencommon.git", branch: "main"
 
