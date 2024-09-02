@@ -1,8 +1,8 @@
 class Watchman < Formula
   desc "Watch files and take action when they change"
   homepage "https://github.com/facebook/watchman"
-  url "https://github.com/facebook/watchman/archive/refs/tags/v2024.08.26.00.tar.gz"
-  sha256 "c5989f5f0f64956ab80e09f8ef32de1a022e59b5dbee89985e626d3c1ad6ea79"
+  url "https://github.com/facebook/watchman/archive/refs/tags/v2024.09.02.00.tar.gz"
+  sha256 "a31b9633384e8635ada97a55fc04b5f58eb271f7986d20806f21ffe9e681d545"
   license "MIT"
   head "https://github.com/facebook/watchman.git", branch: "main"
 
