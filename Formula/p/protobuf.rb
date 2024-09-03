@@ -1,10 +1,9 @@
 class Protobuf < Formula
   desc "Protocol buffers (Google's data interchange format)"
   homepage "https://protobuf.dev/"
-  url "https://github.com/protocolbuffers/protobuf/releases/download/v27.3/protobuf-27.3.tar.gz"
-  sha256 "1535151efbc7893f38b0578e83cac584f2819974f065698976989ec71c1af84a"
+  url "https://github.com/protocolbuffers/protobuf/releases/download/v28.0/protobuf-28.0.tar.gz"
+  sha256 "13e7749c30bc24af6ee93e092422f9dc08491c7097efa69461f88eb5f61805ce"
   license "BSD-3-Clause"
-  revision 1
 
   livecheck do
     url :stable
